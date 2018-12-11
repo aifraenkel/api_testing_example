@@ -1,0 +1,67 @@
+{
+  "uid" : "f1e01b862257b203",
+  "name" : "USER_ID :: 2 ",
+  "fullName" : "Example API - GetUser - Datadriven test.USER_ID :: 2 ",
+  "historyId" : "1a461ef06c5a972c120aaabd6d13a092",
+  "time" : {
+    "start" : 1544566164324,
+    "stop" : 1544566165321,
+    "duration" : 997
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "65eecb6753c83a01",
+      "name" : "request /api/users/2",
+      "source" : "65eecb6753c83a01.txt",
+      "type" : "text/plain",
+      "size" : 3
+    }, {
+      "uid" : "9a4bf32e5e3153aa",
+      "name" : "response /api/users/2",
+      "source" : "9a4bf32e5e3153aa.txt",
+      "type" : "text/plain",
+      "size" : 137
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Example API - GetUser - Datadriven test"
+  }, {
+    "name" : "testClass",
+    "value" : "Example API - GetUser - Datadriven test"
+  }, {
+    "name" : "testMethod",
+    "value" : "USER_ID :: 2 "
+  }, {
+    "name" : "package",
+    "value" : "Example API - GetUser - Datadriven test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f1e01b862257b203.json",
+  "parameterValues" : [ ]
+}

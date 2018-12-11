@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1544566164323' stop='1544566167234'>
+    <name>Example API - GetUser - Datadriven test</name>
+    <title>Example API - GetUser - Datadriven test</title>
+    <test-cases>
+        <test-case start='1544566164324' status='passed' stop='1544566165321'>
+            <name>USER_ID :: 2 </name>
+            <title>USER_ID :: 2 </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='request /api/users/2' source='c5002204-a5cb-4f73-82a2-30d74e035eea-attachment.txt' type='text/plain' size='3'/>
+                <attachment title='response /api/users/2' source='74569747-917b-4497-bc3c-349acef71556-attachment.txt' type='text/plain' size='137'/>
+            </attachments>
+        </test-case>
+        <test-case start='1544566165321' status='passed' stop='1544566166288'>
+            <name>USER_ID :: 3 </name>
+            <title>USER_ID :: 3 </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='request /api/users/3' source='ebc9aedb-e3d4-4b6b-b366-f7ee25478aa8-attachment.txt' type='text/plain' size='3'/>
+                <attachment title='response /api/users/3' source='82695799-6520-4064-9e11-c5c3b105d5da-attachment.txt' type='text/plain' size='135'/>
+            </attachments>
+        </test-case>
+        <test-case start='1544566166288' status='passed' stop='1544566167233'>
+            <name>USER_ID :: 5 </name>
+            <title>USER_ID :: 5 </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='request /api/users/5' source='ec5522de-4add-4b42-ba3d-bb537199d8ab-attachment.txt' type='text/plain' size='3'/>
+                <attachment title='response /api/users/5' source='5738e125-047c-4e6f-b222-f01bfac20b21-attachment.txt' type='text/plain' size='139'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
