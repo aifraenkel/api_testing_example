@@ -28,8 +28,8 @@ describe('Example API - GetUser - Datadriven test', function () {
                 //.cert(cert)
                 //.ca(ca)
                 //.set('Accept', 'application/x-www-form-urlencoded')
-                .send()
-                .expect("Content-type",/json/)
+                //.send(payload)
+                //.expect("Content-type",/json/)
                 .expect(200)
                 .end(function(err, res){
                     if(err)
@@ -48,10 +48,10 @@ describe('Example API - GetUser - Datadriven test', function () {
                         console.log('RESPONSE BODY: ' + JSON.stringify(result));
                     }
 
-                    helper.saveGetUserResult(results_path, value.id, body.data)
+                    helper.saveGetUserResult(results_path, value.id, result.data)
 
-                    assert.notEqual(body.data, undefined, 'data should be in the response');
-                    assert.equal(body.data.id, value.id, 'user id should be ' + value.id);
+                    assert.notEqual(result.data, undefined, 'data should be in the response');
+                    assert.equal(result.data.id, value.id, 'user id should be ' + value.id);
                     
                     done();
                 })
