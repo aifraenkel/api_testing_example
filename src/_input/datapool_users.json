@@ -1,0 +1,28 @@
+{
+    "users": [
+        {
+            "id": "2",
+            "expected": {
+                "first_name": "Janet",
+                "last_name": "Weaver",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"
+            }
+        },
+        {
+            "id": "3",
+            "expected": {
+                "first_name": "Emma",
+                "last_name": "Wong",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"
+            }
+        },
+        {
+            "id": "5",
+            "expected": {
+                "first_name": "Charles",
+                "last_name": "Morris",
+                "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"
+            }
+        }
+    ]
+}
